@@ -6,7 +6,7 @@
 
 ---
 
-## 📝 **FINAL EXAM – Fullstack Development with Docker, Git, GitHub, .NET Core and JavaScript Frameworks**
+## 📝 **FINAL EXAM (SIMULATION) – Fullstack Development with Docker, Git, GitHub, .NET Core and JavaScript Frameworks**
 
 ---
 
@@ -226,6 +226,7 @@ The `README.md` file in the GitHub repository **must contain this final exam** (
      - C) A web server  
      - D) A frontend framework  
   ```
+
 - scroll up, click in the button `Raw`, ctrl + A, ctrl + C (copy the content) and PASTE in your `README.md` file
 ---
 

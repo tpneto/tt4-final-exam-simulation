@@ -8,9 +8,15 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class TaskService {
-  private apiUrl = '/api/tasks';
+  private apiUrl: string;
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient) {
+    if (window.location.hostname === 'localhost') {
+      this.apiUrl = 'http://localhost:5107/tasks';
+    } else {
+      this.apiUrl = '/api/tasks';
+    }
+  }
 
   getTasks(): Observable<Task[]> {
     return this.http.get<Task[]>(this.apiUrl);
